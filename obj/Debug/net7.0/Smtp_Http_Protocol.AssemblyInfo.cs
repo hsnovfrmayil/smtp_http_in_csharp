@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smtp_Http_Protocol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d19e8116389da5702bf6cc5306e69bdef2e6a98")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smtp_Http_Protocol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smtp_Http_Protocol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -34,7 +34,7 @@ while (true)
 
             if(queryString is null || queryString.Count == 0)
             {
-                var text =await File.ReadAllTextAsync("/Users/fermayilhesenov/Desktop/new/index.html");
+                var text =await File.ReadAllTextAsync("/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/new/index.html");
                 response.StatusCode =200;
                 await writer.WriteAsync(text);
             }
