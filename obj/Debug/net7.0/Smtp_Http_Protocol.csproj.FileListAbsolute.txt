@@ -1,0 +1,14 @@
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/bin/Debug/net7.0/Smtp_Http_Protocol
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/bin/Debug/net7.0/Smtp_Http_Protocol.deps.json
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/bin/Debug/net7.0/Smtp_Http_Protocol.runtimeconfig.json
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/bin/Debug/net7.0/Smtp_Http_Protocol.dll
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/bin/Debug/net7.0/Smtp_Http_Protocol.pdb
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/Smtp_Http_Protocol.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/Smtp_Http_Protocol.AssemblyInfoInputs.cache
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/Smtp_Http_Protocol.AssemblyInfo.cs
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/Smtp_Http_Protocol.csproj.CoreCompileInputs.cache
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/Smtp_Http_Protocol.dll
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/refint/Smtp_Http_Protocol.dll
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/Smtp_Http_Protocol.pdb
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/Smtp_Http_Protocol.genruntimeconfig.cache
+/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/obj/Debug/net7.0/ref/Smtp_Http_Protocol.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5K6BWjsoB8zhdKhUR983iLE+aY3ekh3JZ2mAfeEgyZCqILUyz1Hdzl/OXMfSkkFLXoHOF7iY0p1A2r1CYWH/jw==",
+  "success": true,
+  "projectFilePath": "/Users/fermayilhesenov/Projects/MailProtocols/Smtp_Http_Protocol/Smtp_Http_Protocol.csproj",
+  "expectedPackageFiles": [
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.18/microsoft.netcore.app.host.osx-arm64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
