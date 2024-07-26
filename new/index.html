@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compose Email</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #1e90ff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #1c86ee;
+        }
+    </style>
+    <!-- jQuery CDN Link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Compose Email</h1>
+   
+            <label for="sendEmail">Send Email</label>
+            <input type="email" id="sendEmail" name="sendEmail" required>
+            <br>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            <br>
+            <label for="content">Content</label>
+            <textarea id="content" name="content" rows="10" required></textarea>
+            <br>
+            <button type="submit" id="btn">Send</button>
+            <br>
+            <div id="response"></div>
+    
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                var emailTo=$("#sendEmail").val();
+                var subject=$("#subject").val();
+                var content=$("#content").val();
+
+                console.log(emailTo);
+                console.log(subject);
+                console.log(content);
+
+                var queryString="?emailTo="+emailTo+"&subject="+subject+"&body="+content;
+                var requestPath="http://localhost:27001/index"+queryString;
+                console.log(requestPath);
+
+                // var httpClient=new XMLHttpRequest();
+                // httpClient.open("GET",requestPath,true);
+                // httpClient.send();
+
+                $.ajax({
+                    url: requestPath,
+                    type: "GET",
+                    success: function(response){
+                        $("#response").text(response);
+                        $("#response").css("color","green");
+
+                    },
+                    error: function(error){
+                        $("#response").text("Mail dont send");
+                        $("#response").css("color","red");
+
+                    }
+                });
+            });
+            
+
+        });
+    </script>
+</body>
+</html>
